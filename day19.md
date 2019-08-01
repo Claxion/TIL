@@ -25,4 +25,3 @@ for t in range(int(input())):
     n,d=input(),input().split()
     print(f'#{n} {max(sorted(d)[::-1],key=d.count)}')
 ```
-
