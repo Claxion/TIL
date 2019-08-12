@@ -59,3 +59,20 @@ ctrl+p => urls.py 바로 쳐서 움직이자
 
 csrf 토큰으로 보낭ㄴ처리
 
+
+
+## python
+
+list를 key로 sort 하기
+
+``` python
+def take4(elem):
+    return elem[3]
+
+list.sort(reverse=True, key=take4)
+```
+
+ 튜플안에 리스트를 넣어서 작은 클래스 형태로 쓰면서 데이터를 변경시킬 수 있다.
+
+
+
